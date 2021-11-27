@@ -1,0 +1,67 @@
+* {
+  /* border: solid 1px; */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*  ----------------------------
+part_header
+---------------------------- */
+.part_header {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.logo {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_coachtech {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #111176;
+}
+
+.menu {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.menu a {
+  font-size: 1vw;
+  font-weight: bold;
+  color: #111176;
+}
+
+/* ----------------------------
+part_main
+---------------------------- */
+.part_main {
+  width: 100%;
+  margin: 0px 0px 0px 3vw;
+}
+.item1 {
+  width: 40vw;
+  position: relative;
+  top: 18vh;
+  left: 50vw;
+}
+.item2 {
+  font-size: 5vw;
+  font-weight: lighter;
+  line-height: 1;
+  margin: 0px;
+}
+.item3 {
+  width: 70vw;
+  height: 20vh;
+  background: #111176;
+  margin: 0px;
+}
